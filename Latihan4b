@@ -1,0 +1,25 @@
+
+package latihan4b;
+
+public class Latihan4B {
+    
+    public static void main(String[] args) {
+        
+        int sukuawal = 5;
+        int beda = 5;
+        int hasil;
+        
+        for (int a = 5; a >= 1; a--){
+            for (int i = 1; i <= a; i++){
+                
+                hasil = sukuawal;
+                sukuawal += beda;
+                
+                System.out.print(" "+hasil);
+            }
+            System.out.println(" ");
+        }
+        
+    }
+    
+}
